@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f6f3">
+  <meta name="description" content="АвтоCity в Энгельсе: автозапчасти для иномарок, компьютерная диагностика, обслуживание и ремонт автомобилей. Маяковского, 96.">
+  <title>АвтоCity — автозапчасти и автосервис в Энгельсе</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline">
+    <div class="container topline__inner">
+      <span>АВТОЗАПЧАСТИ И АВТОСЕРВИС</span>
+      <span>ЭНГЕЛЬС · МАЯКОВСКОГО, 96</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="АвтоCity — на главную">АвтоCity</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#parts">Запчасти</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header-phone" href="tel:+78453543639">+7 (8453) 54-36-39</a>
+        <a class="button button--small" href="tel:+78453543639">Позвонить</a>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-toggle__lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="menu-toggle__label">Меню</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> МАГАЗИН АВТОЗАПЧАСТЕЙ · АВТОСЕРВИС</p>
+          <h1>Запчасти и сервис<br><span>для вашего автомобиля</span></h1>
+          <p class="hero__lead">
+            Подбор запчастей для иномарок, диагностика, обслуживание
+            и ремонт в одном месте.
+          </p>
+          <div class="hero__buttons">
+            <a class="button" href="tel:+78453543639">Позвонить в АвтоCity</a>
+            <a class="text-link" href="#contacts">Как нас найти</a>
+          </div>
+          <div class="hero__location">
+            <span class="location-mark" aria-hidden="true"></span>
+            <span>Энгельс, улица Маяковского, 96</span>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Тормозная система автомобиля">
+          <div class="hero__glow"></div>
+          <img src="assets/brake-system.png" alt="Тормозной диск и красный суппорт без логотипов" fetchpriority="high">
+          <div class="hero__image-caption">
+            <span>ТОРМОЗНЫЕ СИСТЕМЫ</span>
+            <span>ПОДБОР И ОБСЛУЖИВАНИЕ</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__bottom-line"></div>
+    </section>
+
+    <section class="benefits" aria-label="Преимущества">
+      <div class="container benefits__grid">
+        <article class="benefit">
+          <span class="benefit__number">01</span>
+          <div>
+            <h2>Запчасти для иномарок</h2>
+            <p>Помощь с подбором деталей и расходных материалов.</p>
+          </div>
+        </article>
+        <article class="benefit">
+          <span class="benefit__number">02</span>
+          <div>
+            <h2>Диагностика и ремонт</h2>
+            <p>Проверка состояния автомобиля и работы с основными узлами.</p>
+          </div>
+        </article>
+        <article class="benefit">
+          <span class="benefit__number">03</span>
+          <div>
+            <h2>Магазин и сервис</h2>
+            <p>Можно обратиться за запчастями и обслуживанием в одном месте.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">АВТОСЕРВИС</p>
+          <h2>Чем можем помочь</h2>
+          <p>Основные направления обслуживания и ремонта автомобиля.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-card__index">01 / ДИАГНОСТИКА</span>
+            <h3>Компьютерная диагностика</h3>
+            <p>Проверка электронных систем автомобиля и поиск неисправностей.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">02 / ОБСЛУЖИВАНИЕ</span>
+            <h3>Замена масла и ТО</h3>
+            <p>Регламентное обслуживание и замена моторного масла.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">03 / ХОДОВАЯ</span>
+            <h3>Ремонт подвески и ходовой</h3>
+            <p>Работы с элементами подвески и ходовой части автомобиля.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">04 / ДВИГАТЕЛЬ</span>
+            <h3>Ремонт двигателя</h3>
+            <p>Работы с бензиновыми и дизельными двигателями.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">05 / КУЗОВ</span>
+            <h3>Кузовной ремонт</h3>
+            <p>Ремонт кузовных элементов и восстановление автомобиля.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">06 / КОНДИЦИОНЕР</span>
+            <h3>Заправка кондиционера</h3>
+            <p>Обслуживание системы кондиционирования автомобиля.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__index">07 / СТЕКЛО</span>
+            <h3>Автостекло</h3>
+            <p>Помощь по вопросам автомобильного остекления.</p>
+          </article>
+          <article class="service-card service-card--accent">
+            <span class="service-card__index">08 / ЗАПЧАСТИ</span>
+            <h3>Подбор запчастей для иномарок</h3>
+            <p>Поможем сориентироваться по нужным деталям и их наличию.</p>
+          </article>
+        </div>
+        <p class="section-note">Состав и возможность конкретных работ, наличие деталей и стоимость уточняйте по телефону.</p>
+      </div>
+    </section>
+
+    <section class="parts-section" id="parts">
+      <div class="container">
+        <div class="parts-section__top">
+          <div>
+            <p class="eyebrow eyebrow--light">АВТОЗАПЧАСТИ</p>
+            <h2>Подберём нужную деталь</h2>
+          </div>
+          <p>Для точного подбора подготовьте марку, модель и год выпуска автомобиля. Если есть артикул или VIN — сообщите его менеджеру.</p>
+        </div>
+
+        <div class="parts-grid">
+          <article class="part-card part-card--brakes">
+            <div class="part-card__visual part-card__visual--disc">
+              <img src="assets/brake-system.png" alt="" loading="lazy">
+            </div>
+            <div class="part-card__content">
+              <span>01</span>
+              <h3>Тормозная система</h3>
+              <p>Диски, колодки и комплектующие — уточняйте подбор и наличие.</p>
+            </div>
+          </article>
+          <article class="part-card">
+            <div class="part-card__visual part-card__visual--suspension">
+              <div class="suspension-visual" aria-hidden="true">
+                <div class="suspension-visual__shaft"></div>
+                <div class="suspension-visual__spring"></div>
+                <div class="suspension-visual__base"></div>
+              </div>
+            </div>
+            <div class="part-card__content">
+              <span>02</span>
+              <h3>Подвеска и ходовая</h3>
+              <p>Детали для обслуживания и ремонта ходовой части.</p>
+            </div>
+          </article>
+          <article class="part-card">
+            <div class="part-card__visual part-card__visual--engine">
+              <div class="engine-visual" aria-hidden="true">
+                <div class="engine-visual__block"></div>
+                <div class="engine-visual__head"></div>
+                <div class="engine-visual__pipe"></div>
+              </div>
+            </div>
+            <div class="part-card__content">
+              <span>03</span>
+              <h3>Двигатель и комплектующие</h3>
+              <p>Запчасти и расходные материалы для обслуживания двигателя.</p>
+            </div>
+          </article>
+          <article class="part-card">
+            <div class="part-card__visual part-card__visual--oil">
+              <div class="oil-visual" aria-hidden="true">
+                <div class="oil-visual__bottle"></div>
+                <div class="oil-visual__cap"></div>
+                <div class="oil-visual__label"></div>
+              </div>
+            </div>
+            <div class="part-card__content">
+              <span>04</span>
+              <h3>Масла и жидкости</h3>
+              <p>Моторные масла и технические жидкости для автомобиля.</p>
+            </div>
+          </article>
+          <article class="part-card">
+            <div class="part-card__visual part-card__visual--body">
+              <div class="body-visual" aria-hidden="true">
+                <div class="body-visual__panel"></div>
+                <div class="body-visual__light"></div>
+              </div>
+            </div>
+            <div class="part-card__content">
+              <span>05</span>
+              <h3>Кузовные детали</h3>
+              <p>Подбор деталей кузова и помощь с нужной позицией.</p>
+            </div>
+          </article>
+          <article class="part-card part-card--request">
+            <div class="part-card__request-mark" aria-hidden="true">+</div>
+            <div class="part-card__content">
+              <span>06</span>
+              <h3>Не нашли нужную категорию?</h3>
+              <p>Позвоните — уточним, сможем ли подобрать нужную запчасть.</p>
+              <a class="part-card__link" href="tel:+78453543639">Связаться с нами</a>
+            </div>
+          </article>
+        </div>
+        <p class="parts-note">Карточки показывают направления для запроса, а не подтверждают наличие конкретных товаров на складе.</p>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about__layout">
+        <div class="about__visual">
+          <div class="about__visual-inner">
+            <span class="about__visual-label">АВТОCITY · ЭНГЕЛЬС</span>
+            <span class="about__visual-title">Всё для<br>вашего авто</span>
+            <div class="about__visual-disc"></div>
+          </div>
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow">О НАС</p>
+          <h2>Магазин автозапчастей и автосервис</h2>
+          <p>АвтоCity — точка в Энгельсе, где можно обратиться за запчастями для иномарок, диагностикой, техническим обслуживанием и ремонтом автомобиля.</p>
+          <p>Расскажите, что случилось с автомобилем или какая деталь нужна. Подскажем, с чего начать, и сориентируем по дальнейшим действиям.</p>
+          <a class="button" href="tel:+78453543639">Обсудить задачу по телефону</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta">
+      <div class="container contact-cta__inner">
+        <div>
+          <p class="eyebrow eyebrow--light">ЕСТЬ ВОПРОС ПО АВТОМОБИЛЮ?</p>
+          <h2>Позвоните — обсудим<br>вашу задачу</h2>
+        </div>
+        <a class="button button--light" href="tel:+78453543639">+7 (8453) 54-36-39</a>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <div class="section-heading section-heading--left">
+          <p class="eyebrow">КОНТАКТЫ</p>
+          <h2>Как нас найти</h2>
+          <p>Приезжайте в АвтоCity или предварительно позвоните.</p>
+        </div>
+
+        <div class="contacts__grid">
+          <div class="contacts__details">
+            <div class="contact-item">
+              <span class="contact-item__label">АДРЕС</span>
+              <strong>г. Энгельс, ул. Маяковского, 96</strong>
+              <a class="plain-link" href="https://yandex.ru/maps/194/saratov/?ll=46.117953%2C51.485236&mode=poi&poi%5Bpoint%5D=46.116881%2C51.485112&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D143409071500&z=18.52" target="_blank" rel="noopener">Открыть в Яндекс Картах</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">ТЕЛЕФОНЫ</span>
+              <a class="contact-phone" href="tel:+78453543639">+7 (8453) 54-36-39</a>
+              <a class="contact-phone" href="tel:+79272278623">+7 (927) 227-86-23</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">ЭЛЕКТРОННАЯ ПОЧТА</span>
+              <a class="plain-link" href="mailto:balka@mail.ru">balka@mail.ru</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">РЕЖИМ РАБОТЫ</span>
+              <div class="hours">
+                <span>Пн — Пт</span><strong>09:00 — 18:00</strong>
+                <span>Суббота</span><strong>09:00 — 17:00</strong>
+                <span>Воскресенье</span><strong>10:00 — 15:00</strong>
+              </div>
+              <small>График указан по открытым справочникам. Перед визитом лучше уточнить его по телефону.</small>
+            </div>
+          </div>
+
+          <form class="request-form" id="request-form">
+            <div class="request-form__heading">
+              <span class="eyebrow">ОБРАТНАЯ СВЯЗЬ</span>
+              <h3>Оставить запрос</h3>
+              <p>Опишите, что нужно для автомобиля. Откроется письмо с заполненными данными.</p>
+            </div>
+            <label>
+              Ваше имя
+              <input type="text" name="name" placeholder="Как к вам обращаться" required>
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" placeholder="+7 ___ ___-__-__" required>
+            </label>
+            <label>
+              Что требуется?
+              <textarea name="message" rows="4" placeholder="Например: нужна диагностика или подбор запчасти"></textarea>
+            </label>
+            <button class="button" type="submit">Подготовить заявку</button>
+            <p class="form-note" id="form-note">Форма подготовит письмо на адрес организации. Отправка произойдёт из вашей почтовой программы.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand brand--footer" href="#home">АвтоCity</a>
+      <p>Автозапчасти и автосервис · Энгельс</p>
+      <a href="tel:+78453543639">+7 (8453) 54-36-39</a>
+      <span>© <span id="year"></span> АвтоCity</span>
+    </div>
+  </footer>
+</body>
+</html>
